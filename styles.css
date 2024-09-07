@@ -1,0 +1,93 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://c4.wallpaperflare.com/wallpaper/449/353/223/lionel-messi-4k-wallpaper-preview.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Estilo de contenedor del formulario */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 650px;
+}
+
+/* Botones personalizados */
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ff9800;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e68900;
+}
+
+.btn-danger {
+  background-color: #f44336;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilo para los encabezados */
+h1 {
+  font-size: 2.5rem;
+  color: #4b0082;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #4b0082;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Etiquetas de formulario */
+.form-label {
+  font-weight: bold;
+}
+
+/* Área de resultados */
+#result {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Resultados */
+#resultContent {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
